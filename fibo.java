@@ -1,8 +1,13 @@
+import java.util.Scanner;
+
 class fibo{  
 public static void main(String args[])  
 {    
- System.out.println("Printing first ten numbers from Fibonacci Series");
- int n1=0,n2=1,n3,i,count=10;    
+ Scanner myObj = new Scanner(System.in);
+ System.out.println("Enter value n : ");
+ int n = myObj.nextInt();  
+ System.out.println("Printing first"+n+"numbers from Fibonacci Series");
+ int n1=0,n2=1,n3,i,count=n;    
  System.out.println(n1);  
  System.out.println(n2);
     
